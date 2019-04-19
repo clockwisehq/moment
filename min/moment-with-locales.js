@@ -2693,7 +2693,7 @@
     }
 
     var now = function () {
-        return Date.now ? Date.now() : +(new Date());
+        return +(new Date());
     };
 
     var ordering = ['year', 'quarter', 'month', 'week', 'day', 'hour', 'minute', 'second', 'millisecond'];
